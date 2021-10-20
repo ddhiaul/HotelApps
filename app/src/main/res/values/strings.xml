@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">HotelApps</string>
+    <string name="today">Today, Wednesday</string>
+    <string name="hotel_name">Hotel Name</string>
+    <string name="hotel_location">Hotel Location</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="booking">My Booking</string>
+    <string name="location">My Location</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+
+    <string-array name="name">
+        <item>Virot Hotel</item>
+        <item>Tulemar Bungalows</item>
+        <item>Taj Umaid Bhawan Palace</item>
+        <item>Hanoi La Siesta Hotel</item>
+        <item>Gili Lankanfushi</item>
+        <item>Hotel Belvedere</item>
+        <item>The Nantucket Hotel</item>
+        <item>La Reserve Paris Hotel</item>
+        <item>Nayara Springs</item>
+        <item>Hanoi La Trendi Hotel</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Siem Reap, Kamboja</item>
+        <item>Manuel Antonio, Kosta Rika</item>
+        <item>Jodhpur, India</item>
+        <item>Hanoi, Vietnam</item>
+        <item>Lankanfushi, Maladewa</item>
+        <item>Riccione, Italia</item>
+        <item>Nantucket, Massachusetts</item>
+        <item>Paris, Prancis</item>
+        <item>La Fortuna de San Carlos, Kosta Rika</item>
+        <item>Hanoi, Vietnam</item>
+    </string-array>
+
+    <string-array name="desc">
+        <item>At the hotel, rooms are fitted with a desk. All guest rooms at Hotel Stari grad include air conditioning and a wardrobe. Free WiFi access is available throughout the property.There is a 24-hour front desk at the property. The property is 45 km from Vlasic, while Banja Luka is 71 km away.</item>
+        <item>The holiday home is located on the ground floor and has 2 bedrooms, a flat-screen TV with satellite channels and a fully equipped kitchen that provides guests with a dishwasher, a fridge, a washing machine, an oven and a stovetop.</item>
+        <item>All rooms boast a flat-screen TV with cable channels and a private bathroom. Guests can enjoy a selection of traditional Bosnian and international cuisine in the in-house restaurant.There is a 24-hour front desk at the property. The property is 45 km from Vlasic, while Banja Luka is 71 km away.</item>
+        <item>Motel Plaza features a restaurant, free bikes, a bar and shared lounge in Jajce. With a garden, the 3-star motel has air-conditioned rooms with free WiFi. The accommodation provides evening entertainment and a 24-hour front desk.</item>
+        <item>At the hotel, rooms are fitted with a desk. All guest rooms at Hotel Stari grad include air conditioning and a wardrobe. Free WiFi access is available throughout the property.There is a 24-hour front desk at the property. The property is 45 km from Vlasic, while Banja Luka is 71 km away.</item>
+        <item>All units at the motel are equipped with a seating area, a flat-screen TV with satellite channels and a private bathroom with a hairdryer and a shower. All guest rooms include a wardrobe.There is a 24-hour front desk at the property. The property is 45 km from Vlasic, while Banja Luka is 71 km away.</item>
+        <item>Featuring free WiFi throughout the property, Hotel Turist 98 offers accommodation in Jajce. Guests can enjoy the on-site restaurant. Free private parking is available on site.There is a 24-hour front desk at the property. The property is 45 km from Vlasic, while Banja Luka is 71 km away.</item>
+        <item>Each room at this hotel is air conditioned and features a flat-screen TV. Every room is fitted with a bathroom that includes a hairdryer.There is a 24-hour front desk at the property. The property is 45 km from Vlasic, while Banja Luka is 71 km away.</item>
+        <item>There is a 24-hour front desk at the property. The property is 45 km from Vlasic, while Banja Luka is 71 km away.Each room at this hotel is air conditioned and features a flat-screen TV.At the hotel, rooms are fitted with a desk.There is a 24-hour front desk at the property.</item>
+        <item>Motel Plaza features a restaurant, free bikes, a bar and shared lounge in Jajce. With a garden, the 3-star motel has air-conditioned rooms with free WiFi. The accommodation provides evening entertainment and a 24-hour front desk</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>Rp 900.000</item>
+        <item>Rp 1.000.000</item>
+        <item>Rp 850.000</item>
+        <item>Rp 1.250.000</item>
+        <item>Rp 2.000.000</item>
+        <item>Rp 1.000.000</item>
+        <item>Rp 1.500.000</item>
+        <item>Rp 850.000</item>
+        <item>Rp 1.500.000</item>
+        <item>Rp 1.700.000</item>
+    </string-array>
+
+    <array name="image">
+        <item>@drawable/viroth</item>
+        <item>@drawable/tulemar</item>
+        <item>@drawable/taj</item>
+        <item>@drawable/hanoi</item>
+        <item>@drawable/gili</item>
+        <item>@drawable/bel</item>
+        <item>@drawable/nantucket</item>
+        <item>@drawable/la</item>
+        <item>@drawable/nayara</item>
+        <item>@drawable/hala</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_pop">name popular</string>
+    <string name="address_pop">address popular</string>
+    <string name="most">Most Popular</string>
+    <string name="see">see all</string>
+    <string name="popular">Popular Hotel</string>
+    <string name="expensive">Harga Tertinggi</string>
+    <string name="swim">Kolam Renang</string>
+    <string name="near">Terdekat</string>
+    <string name="rate">Rating Tertinggi</string>
+    <string name="boutique">Hotel Boutique</string>
+    <string name="motel">Motel</string>
+    <string name="lable_name">Hotel Name</string>
+    <string name="lable_address">Address</string>
+    <string name="lable_desc">Description</string>
+    <string name="lable_rating">Rating</string>
+    <string name="lable_price">Price</string>
+    <string name="lable_visit">Visit Us</string>
+    <string name="lable_order">Order Now</string>
+
+</resources>

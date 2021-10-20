@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                tools:context=".Fragment.HomeFragment">
+
+    <LinearLayout
+            android:id="@+id/body_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimary"
+                android:gravity="center">
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/menu"
+                    android:layout_weight="3"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:gravity="center"
+                    android:text="@string/today"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:layout_weight="1"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/menu2"
+                    android:layout_weight="3"/>
+
+        </LinearLayout>
+
+        <com.synnapps.carouselview.CarouselView
+                android:id="@+id/is_main"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_175sdp"
+                android:layout_marginTop="@dimen/_38sdp"
+                app:fillColor="@android:color/white"
+                app:pageColor="@android:color/transparent"
+                app:radius="@dimen/_4sdp"
+                app:slideInterval="3000"
+                app:strokeColor="@color/colorPrimary"
+                app:strokeWidth="@dimen/_1sdp"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_8sdp">
+            <TextView
+                    android:id="@+id/tv_most"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/most"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginStart="@dimen/_8sdp"/>
+            <TextView
+                    android:id="@+id/tv_see"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/see"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_hotel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_see"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@android:color/white"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/search"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="@dimen/_8sdp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

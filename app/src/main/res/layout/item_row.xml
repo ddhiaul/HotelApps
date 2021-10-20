@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        app:cardCornerRadius="@dimen/_16sdp">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16sdp">
+        <FrameLayout
+                android:id="@+id/fm_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+        </FrameLayout>
+        <ImageView
+                android:id="@+id/img_hotel_pop"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_125sdp"
+                android:scaleType="fitXY"/>
+        <TextView
+                android:id="@+id/tv_name_pop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_hotel_pop"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:text="@string/name_pop"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"/>
+        <TextView
+                android:id="@+id/tv_address_pop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name_pop"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:text="@string/address_pop"
+                android:textSize="16sp"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tv_name_pop"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_favorite"
+                app:backgroundTint="@color/colorPrimary"
+                app:fabSize="mini"
+                app:layout_anchor="@id/fm_row" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
